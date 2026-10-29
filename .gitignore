@@ -1,0 +1,21 @@
+# 构建产物
+build/
+build-*/
+out/
+
+# Qt Creator / VS Code 用户配置
+CMakeLists.txt.user
+*.user
+*.autosave
+.vscode/
+
+# 编译中间文件
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# 系统
+Thumbs.db
+.DS_Store
